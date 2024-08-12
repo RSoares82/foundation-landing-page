@@ -1,0 +1,247 @@
+/* Elemento que aplica a altura e o comprimento a toda a box visivel*/ 
+html {
+    box-sizing: border-box;
+}
+
+/* CSS Reset da margin e padding adicionadas automaticamente pelos browsers */
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px dashed red;  */
+}
+
+/* Vamos definir a herança do border-box*/
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+li.logo {
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+ul {
+    margin: 0 15%;
+    display: flex;
+    align-items: baseline;
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: 15px;
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.hero {
+    background-color: #1F2937;
+    height: 25%;
+    padding: 50px 0;
+}
+
+.heroContainer {
+    align-items: center;
+    display: flex;
+    margin: auto 15%;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;  
+}
+
+.heroLeftTile {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-right: 40px;
+}
+
+.heroLeftTile h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.heroLeftTile p {
+    font-size: 18px;
+    color: #E5E7Eb;
+    margin-bottom: 10px;
+}
+
+.heroRightTile {
+    background-color: #777676;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-grow: 1;
+    flex-basis: 0;
+    min-height: 250px;
+}
+
+.heroRightTile p{
+    color: white;
+}
+
+.signUp {
+    margin-right: auto;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F6;
+}
+
+.random {
+    height: 25%;
+    padding: 25px 0;
+}
+
+.randomContainer {
+    align-items: center;
+    display: flex;
+    margin: auto 15%;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;  
+    border: 20px;
+    position: relative;
+}
+
+.random-tile {
+    display: flex;
+    flex-direction: column;
+    max-width: 125px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.tile {
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.random-tile p {
+    width: 125px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.1;
+    padding-top: 5px;
+}
+
+.randomContainer h2{
+    font-size: 32px;
+    position: absolute;
+    top: 0;
+}
+
+.quote{
+    height: 25%;
+    padding: 25px 0;
+    background-color: #E5E7EB;
+}
+
+.quoteContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto 15%;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;  
+    border: 20px;
+    position: relative;
+}
+
+.quoteParagraph {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.quoteParagraph1 {
+    font-size: 24px;
+    align-self: flex-end;
+    margin-right: 40px;
+    font-weight: bold;
+    font-style: italic;
+    padding-right: 50px;
+}
+
+.action{
+    height: 25%;
+}
+
+.actionContainer {
+    background-color: #3882F6;
+    border-radius: 5px;
+    align-items: center;
+    margin: 4% 15%;
+    min-height: 110px;  
+    position: relative;
+}
+
+.actionContainer h3 {
+    color: #E5E7EB;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.actionContainer p {
+    padding-left: 80px;
+    color: #E5E7EB;
+}
+
+.bottomButton {
+    margin-right: auto;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 8px 25px;
+    border: 1px solid white;;
+    border-radius: 5px;
+    background-color: #3882F6;
+    position: absolute;
+    right: 80px;
+    top: 40px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7Eb;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+
+
+/* img {
+    background-color: #ccc;
+    height: 100px;
+} */
+
+
+
+
+
